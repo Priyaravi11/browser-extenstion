@@ -1,0 +1,23 @@
+{
+    "name": "smart-price-finder-backend",
+    "version": "1.0.0",
+    "description": "Backend for the Smart Price Finder extension.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "@tensorflow/tfjs-node": "^4.22.0",
+        "axios": "^1.5.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^7.3.0",
+        "puppeteer": "^21.0.0",
+        "smart-price-finder-backend": "file:"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.0"
+    }
+}
